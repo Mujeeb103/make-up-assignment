@@ -6,3 +6,8 @@ function defineBudgetSection() {
     ` 
     return html
 }
+
+function createBudgetWritingArea() {
+    const div = document.querySelector('#content')
+    div.insertAdjacentHTML('beforeend', defineBudgetSection())
+}
