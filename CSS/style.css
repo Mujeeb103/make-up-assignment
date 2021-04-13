@@ -5,3 +5,16 @@
     
     
     }
+
+    .container { 
+        display: grid;
+        grid-template-rows: 5rem 1fr 3rem;
+        grid-template-columns: minmax(0px, auto) 1fr;
+        grid-template-areas: 
+        'l m'
+        'l m'
+        'l m';
+        width: 100vw;
+        height: 100vh;
+       
+       }
