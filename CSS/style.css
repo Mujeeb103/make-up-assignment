@@ -18,3 +18,16 @@
         height: 100vh;
        
        }
+
+       .left-side {
+        grid-area: l;
+        background-color: #DCDCDC;
+
+    }
+
+    .main {
+        grid-area: m;
+        background-color: #E0FFFF;
+        padding-top: 10px;
+        padding-left: 100px;
+    }
